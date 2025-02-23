@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="feedback.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Indian Culture and Heritage</h1>
+    </header>
+
+    <main>
+      <div class="container">
+        <h2>Feedback Form</h2>
+        <form action="/feedback" method="POST">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="feedback">Your Feedback</label>
+          <textarea id="feedback" name="feedback" rows="4" required></textarea>
+
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; Indian Culture and Heritage</p>
+    </footer>
+  </body>
+</html>
