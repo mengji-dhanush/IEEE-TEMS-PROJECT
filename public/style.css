@@ -13,7 +13,7 @@ body {
 header {
   background: linear-gradient(135deg, #6a11cb, #2575fc);
   color: white;
-  padding: 20px;
+  padding: 1rem;
   text-align: center;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
@@ -83,8 +83,9 @@ button:hover {
   transition: background-color ease 0.4s;
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 824px) {
   main {
+    max-width: 100%;
     padding: 20px;
     display: flex;
     justify-content: center;
